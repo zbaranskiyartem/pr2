@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+        div {
+            border: 1px solid black;
+        }
+        .wrapper {
+            border: 0;
+            width: 95vw;
+            min-height: 100vh;
+            height: auto;
+            position: relative;
+        }
+        .header,
+        .content,
+        .footer {
+            width: 100%;
+        }
+        .content {
+            padding-bottom: 20px; // задать паддинг на высоту футера
+        }
+        .footer {
+            position: absolute;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            header
+        </div>
+        <div class="content">
+            content
+        </div>
+        <div class="footer">
+            footer
+        </div>
+    </div>
+</body>
+</html>
